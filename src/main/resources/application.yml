@@ -1,0 +1,5 @@
+db.mongodb.sharded-cluster.uri: mongodb://localhost/test
+
+spring.data:
+  mongodb:
+    uri: mongodb://localhost/test?replicaSet=test
